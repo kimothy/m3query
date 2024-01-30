@@ -3,7 +3,9 @@ The m3Query package is a convenient wrapper around the open source projects IBM'
 The package includes the jt400-20.0.6-java11.jar which is used as teh driver for the sql connection. 
 
 # Licences
+| Package    | Licence                             |
+|------------|-------------------------------------|
 | JTOpen     | IBM Public License Version 1.0      |
-| JayDeBeApi | GNU LESSER PUBLIC LICENCE VERSION 3 |
-| m3query    | GNU PUBLIC LICENCE VERSION 3        |
+| JayDeBeApi | GNU Lesser Public License Version 3 |
+| m3query    | GNU Public License Version 3        |
 
