@@ -20,8 +20,6 @@ _DEFAULT_CONVERTERS.update(
     }
 )
 
-CFG = pathlib.Path('.m3query').expanduser()
-
 URL = {
     'DEV': 'jdbc:as400://seep900t/M3FDBDEV',
     'PRD': 'jdbc:as400://seep300v/M3FDBPRD',
