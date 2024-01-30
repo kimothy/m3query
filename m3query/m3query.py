@@ -60,13 +60,17 @@ def get_connection(url: str, *args: Union[str, int, float]) -> Connection:
         
     except KeyError:
         pass
-    
-    return connect(
+
+    driver = ''.join([os.path.dirname(__file__), '\\', 'jt400.jar'])
+
+    connection = connect(
         jclassname="com.ibm.as400.access.AS400JDBCDriver",
         url=url,
         driver_args=args,
-        jars=''.join([os.path.dirname(__file__), '\\', 'jt400-20.0.6-java11.jar'])
+        jars=driver
     )
+
+    return connection
 
 
 
