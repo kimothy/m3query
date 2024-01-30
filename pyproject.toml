@@ -1,9 +1,9 @@
 [tool.poetry]
 name = "m3query"
-version = "0.3.0"
+version = "0.4.0"
 description = "A wrapper around the JayDeBeApi library to connect to M3."
 authors = ["Kim Timothy Engh <kim.timothy.engh@epiroc.com>"]
-include=['m3Query/jt400-20/0/6-java11.jar']
+include=['m3Query/jt400-20/0/6-java11.jar', 'm3Query/jt400.jar']
 
 [tool.poetry.dependencies]
 python = "^3.10"
