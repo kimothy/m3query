@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "m3query"
+version = "0.1.3"
+description = "A wrapper around the JayDeBeApi library to connect to M3. Should not be distributed due to the ownership of the driver."
+authors = ["Kim Timothy Engh <kim.timothy.engh@epiroc.com>"]
+include=['m3Query.jt400.jar']
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "JayDeBeApi"]
+build-backend = "poetry.core.masonry.api"
